@@ -8,51 +8,52 @@ Xibo CMS est une solution de gestion de contenu open-source pour les affichages 
 
 ## Composants Principaux
 
-1. ![🌐](https://img.icons8.com/emoji/48/000000/globe-with-meridians.png) **Serveur Web** : Héberge l'application Xibo CMS et sert les pages web aux utilisateurs. Il peut être configuré avec des serveurs web populaires comme Apache ou Nginx.
+1. **Serveur Web** : Héberge l'application Xibo CMS et sert les pages web aux utilisateurs. Il peut être configuré avec des serveurs web populaires comme Apache ou Nginx.
 
-2. ![💾](https://img.icons8.com/emoji/48/000000/floppy-disk.png) **Base de Données** : Stocke toutes les informations nécessaires au fonctionnement de Xibo CMS, y compris les utilisateurs, les mises en page, les médias et les programmations. Xibo utilise MySQL ou MariaDB comme système de gestion de base de données.
+2. **Base de Données** : Stocke toutes les informations nécessaires au fonctionnement de Xibo CMS, y compris les utilisateurs, les mises en page, les médias et les programmations. Xibo utilise MySQL ou MariaDB comme système de gestion de base de données.
 
-3. ![📺](https://img.icons8.com/emoji/48/000000/television.png) **Client Xibo** : Les clients Xibo sont les dispositifs qui affichent le contenu. Ils se connectent au serveur Xibo CMS pour télécharger les mises à jour de contenu et les afficher selon la programmation définie.
+3.  **Client Xibo** : Les clients Xibo sont les dispositifs qui affichent le contenu. Ils se connectent au serveur Xibo CMS pour télécharger les mises à jour de contenu et les afficher selon la programmation définie.
 
-4. ![🔗](https://img.icons8.com/emoji/48/000000/link.png) **API Xibo** : Fournit une interface pour interagir avec Xibo CMS de manière programmatique. Elle permet l'intégration avec d'autres systèmes et l'automatisation des tâches courantes.
+4. **API Xibo** : Fournit une interface pour interagir avec Xibo CMS de manière programmatique. Elle permet l'intégration avec d'autres systèmes et l'automatisation des tâches courantes.
 
 ## Outils et Technologies Utilisés pour le Développement de Xibo CMS
 
 ### Langages de Programmation
 
-- ![🐘](https://img.icons8.com/color/48/000000/php.png) **PHP** : Le cœur de Xibo CMS est développé en PHP, un langage de script côté serveur largement utilisé pour le développement web.
-- ![💻](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript** : Utilisé pour les fonctionnalités interactives côté client et les améliorations de l'interface utilisateur.
+- **PHP** : Le cœur de Xibo CMS est développé en PHP, un langage de script côté serveur largement utilisé pour le développement web.
+- **JavaScript** : Utilisé pour les fonctionnalités interactives côté client et les améliorations de l'interface utilisateur.
 
 ### Frameworks et Bibliothèques
 
-- ![🌐](https://img.icons8.com/color/48/000000/slim-framework.png) **Slim Framework** : Un micro-framework PHP utilisé pour structurer l'application, gérer les routes et fournir des fonctionnalités de base.
-- ![jQuery](https://img.icons8.com/?size=100&id=40253&format=png&color=FAB005) **jQuery** : Une bibliothèque JavaScript utilisée pour simplifier la manipulation du DOM, la gestion des événements et les requêtes AJAX.
-- ![🎨](https://img.icons8.com/color/48/000000/bootstrap.png) **Bootstrap** : Un framework CSS populaire utilisé pour concevoir des interfaces utilisateur réactives et modernes.
+- **Slim Framework** : Un micro-framework PHP utilisé pour structurer l'application, gérer les routes et fournir des fonctionnalités de base.
+- **Swig** : moteur de template 
+- **jQuery** : Une bibliothèque JavaScript utilisée pour simplifier la manipulation du DOM, la gestion des événements et les requêtes AJAX.
+-  **Bootstrap** : Un framework CSS populaire utilisé pour concevoir des interfaces utilisateur réactives et modernes.
 
 ### Bases de Données
 
-- ![💾](https://img.icons8.com/color/48/000000/mysql-logo.png) **MySQL/MariaDB** : Systèmes de gestion de bases de données relationnelles utilisés pour stocker les données de l'application de manière fiable et performante.
+- **MySQL/MariaDB** : Systèmes de gestion de bases de données relationnelles utilisés pour stocker les données de l'application de manière fiable et performante.
 
 ### Serveurs Web
 
-- ![🌐](https://img.icons8.com/color/48/000000/apache.png) **Apache/Nginx** : Serveurs web populaires utilisés pour héberger l'application Xibo CMS et servir les pages web aux utilisateurs.
+- **Apache/Nginx** : Serveurs web populaires utilisés pour héberger l'application Xibo CMS et servir les pages web aux utilisateurs.
 
 ### Outils de Développement
 
-- ![📦](https://img.icons8.com/color/48/000000/composer.png) **Composer** : Un gestionnaire de dépendances pour PHP, utilisé pour installer et gérer les bibliothèques et les packages nécessaires au projet.
-- ![🟢](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js et npm** : Utilisés pour gérer les dépendances JavaScript et les outils de développement front-end.
+- **Composer** : Un gestionnaire de dépendances pour PHP, utilisé pour installer et gérer les bibliothèques et les packages nécessaires au projet.
+- **Node.js et npm** : Utilisés pour gérer les dépendances JavaScript et les outils de développement front-end.
 
 ### Outils de Test
 
-- ![🧪](https://img.icons8.com/color/48/000000/phpunit.png) **PHPUnit** : Un framework de test pour PHP utilisé pour écrire et exécuter des tests unitaires, assurant la qualité et la fiabilité du code.
-- ![🔍](https://img.icons8.com/color/48/000000/selenium-test-automation.png) **Selenium** : Un outil de test automatisé pour les applications web, utilisé pour tester les interactions utilisateur et les fonctionnalités de l'interface.
+- **PHPUnit** : Un framework de test pour PHP utilisé pour écrire et exécuter des tests unitaires, assurant la qualité et la fiabilité du code.
+- **Selenium** : Un outil de test automatisé pour les applications web, utilisé pour tester les interactions utilisateur et les fonctionnalités de l'interface.
 
 ## XMR (Xibo Message Relay)
 
 XMR est un composant de messagerie en temps réel utilisé par Xibo CMS pour envoyer des notifications instantanées aux clients Xibo. Cela permet une communication bidirectionnelle efficace entre le serveur et les clients.
 
-- ![⚙️](https://img.icons8.com/?size=100&id=123363&format=png&color=228BE6) **Configuration** : XMR doit être configuré avec un serveur de messages compatible, comme Mosquitto. Les détails de connexion sont configurés dans Xibo CMS.
-- ![📡](https://img.icons8.com/ios-filled/50/000000/antenna.png) **Utilisation** : XMR est utilisé pour envoyer des commandes en temps réel, telles que les mises à jour de contenu immédiates, les redémarrages de clients et les notifications de statut.
+- **Configuration** : XMR doit être configuré avec un serveur de messages compatible, comme Mosquitto. Les détails de connexion sont configurés dans Xibo CMS.
+- **Utilisation** : XMR est utilisé pour envoyer des commandes en temps réel, telles que les mises à jour de contenu immédiates, les redémarrages de clients et les notifications de statut.
 
 ## Flux de Travail de la Création à la Diffusion de Contenu dans Xibo CMS
 
