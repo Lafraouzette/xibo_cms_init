@@ -1,4 +1,4 @@
-# Architecture de Xibo CMS
+# Architecture de Xibo CMS consulté le lien suivant 🔗 (https://xibosignage.com/docs/developer/extend/architecture)
 
 Xibo CMS est une solution de gestion de contenu open-source pour les affichages numériques. Son architecture est conçue pour être modulaire, évolutive et facile à déployer. Voici une vue d'ensemble de l'architecture de Xibo CMS :
 
