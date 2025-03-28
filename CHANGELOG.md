@@ -10,6 +10,6 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Modified README.md (adjusted icons)
-
+- docker-compose (adding phpmyadmin)
 ### Fixed
 - 

@@ -46,3 +46,13 @@ services:
     cms-quickchart:
       image: ianw/quickchart
       restart: always
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        restart: always
+        ports:
+            - "8080:80"
+        environment:
+            - PMA_HOST=cms-db
+        env_file: config.env
+        
+
